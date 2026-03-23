@@ -384,7 +384,7 @@ body {
     width: 100%;
 }
 .mens-front{
-    background-image: url(./Background/Shopier-Men-Fashion-shopping-banner.jpg);
+    background-image: url("./Background/Shopier-Men-Fashion-shopping-banner.jpg");
        background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -465,7 +465,7 @@ body {
 
 
 .womens-front{
-    background-image: url(./Background/Shopier-womens-fashion.jpg);
+    background-image: url("./Background/Shopier-womens-fashion.jpg");
        background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -474,7 +474,7 @@ body {
     height: 400px;
 }
 .bags-front{
-    background-image: url(./Background/dummy-wood-title-1.jpg);
+    background-image: url("./Background/dummy-wood-title-1.jpg");
        background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
