@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Cartify–Your Digital Marketplace</title>
+</head>
+
+<body>
+    <header class="nav-bar">
+        <nav class="logo">
+            <a href="index.html"> <img src="/logo and tools/logo.png" alt="Cartify-Logo"></a>
+        </nav>
+        <nav class="nav-list">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search Products....">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="cart">
+            <i class="fas fa-shopping-cart cart-icon"></i>
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+    <div class="left">
+        <h1>Shop By Category</h1>
+        <nav class="nav-left">
+            <ul>
+                <li> <a href="mens.html">Mens Fashion</a></li>
+                <li><a href="womens.html">Womens Fashion</a></li>
+                <li><a href="kids.html">Kids Fashion</a></li>
+                <li><a href="arrival.html">New Arrivals</a></li>
+                 <li><a href="bags.html">Womens Bags</a></li>
+            </ul>
+            <button>Explore More</button>
+        </nav>
+    </div>
+    <div class="right">
+        <div class="close-btn">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+           <h1>Your Cart</h1>
+           <div class="cart-content">
+               <!-- <div class="cart-items">
+                <div class="cart-img"><img src="/images/mans fashions/Mens-Full-Sleeve-Dress-Shirt-Grey-Black.jpg" alt=""></div>
+                <div class="cartpara">Mens-Full-Sleeve-Dress-Shirt-Grey-Black</div>
+                <p class="cart-price">Rs.1500</p>
+                  <div class="cart-quantity">
+                    <button class="decrement">-</button>
+                    <span class="quantity">1</span>
+                    <button class="increment">+</button>
+                    <button class="delete-butn"><i class="fa-solid fa-trash"></i></button>
+                  </div>
+                </div> -->
+           </div>
+           <div class="cart-total">
+            Total: Rs.<span id="total-price">0</span>
+        </div>
+           <button class="butn">Buy now</button>
+           <button class="butn">Checkout</button>
+           <p></p>
+    </div>
+    <div class="womens-front">
+         <i class="fa-solid fa-arrow-left" style="color: rgba(244, 244, 245, 0.945);"></i>
+    </div>
+    <h3 class="head">Buy Cartify's Womens Shalwar Kameez</h3>
+     <button class="nav-btn nav-prev">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                     <button class="nav-btn nav-next">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+        <div class="slide"> 
+            <div class="card">
+                <img src="/images/womens fashion/507_2.webp" alt="">
+                 <h3>Womens Green Ready to Wear Suit</h3>
+                 <p class="price">Rs.3000</p>
+                 <button class="addcart">Add To Cart</button>
+            </div>
+               <div class="card">
+                <img src="/images/womens fashion/Gul-Ahmad-2-2-200x300.jpg" alt="">
+                 <h3>Mens-Full-Sleeve-Dress-Shirt-Black-White</h3>
+                 <p class="price">Rs.2000</p>
+                 <button class="addcart">Add To Cart</button>
+            </div>
+               <div class="card">
+                <img src="/images/womens fashion/Gul-Ahmad-3-1-200x300.jpg" alt="">
+                 <h3>Mens-Full-Sleeve-Dress-Shirt-Grey-Black</h3>
+                 <p class="price">Rs.1800</p>
+                 <button class="addcart">Add To Cart</button>
+            </div>
+               <div class="card">
+                <img src="/images/womens fashion/Gul-Ahmad-3-216x300.jpg" alt="">
+                 <h3>Mens-Full-Sleeve-Dress-Shirt-White-Blue</h3>
+                 <p class="price">Rs.2200</p>
+                 <button class="addcart">Add To Cart</button>
+            </div>
+               <div class="card">
+                <img src="/images/womens fashion/Gul-Ahmad-5-220x300.jpg
+                " alt="">
+                 <h3>Mens-Navy-Blue-Full-Sleeve-Dress-Shirt</h3>
+                 <p class="price">Rs.1400</p>
+                 <button class="addcart">Add To Cart</button>
+            </div>
+        </div>
+           <script src="/script.js"></script>
+</body>
+
+</html>
